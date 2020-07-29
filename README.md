@@ -33,8 +33,8 @@ setPointerCheckedImage|	设置指示器选中显示的图片|	int|	#ffff8800
 setPointerUnCheckedImage|	设置指示器未选中显示的图片|	int|	#ff000000
 setPointerMargin|	设置指示器底边距 与 指示器之间的间距|	int,int|	 0,15
 setPointerSize|	设置指示器宽和高|	int|	15,15
-initData|	初始化,传入网络图片url的list，和标题list|	list，list|	
-setOnBannerItemClickListening|	设置banner被点击监听，返回position|	|	
+initData|	初始化,传入网络图片url的list，和标题list|	list，list|
+setOnBannerItemClickListening|	设置banner被点击监听，返回position||
 
 ## 3.代码参考
 配置及初始化
