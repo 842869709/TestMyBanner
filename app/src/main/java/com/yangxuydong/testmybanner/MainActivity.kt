@@ -48,5 +48,4 @@ class MainActivity : Activity(), MyBanner.OnBannerItemClickListening {
     override fun onItemClickListening(p: Int) {
         Toast.makeText(this,"点击了="+p, Toast.LENGTH_SHORT).show()
     }
-
 }
