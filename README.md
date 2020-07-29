@@ -19,22 +19,19 @@ banner广告轮播控件
 	}
 ```
 ## 2.功能参数与含义
-配置参数|参数含义|参数类型|默认值
+配置参数|参数含义
 -|-
-setDelayTime|	设置滚动间隔时间毫秒）
-setErrorImage|	设置加载错误默认展示的图片
-setTitleVisible|	设置标题显示与否
-setPointerVisible|	设置指示器显示与否
-setTitleSize|	设置标题字号
-setTitleColor|	设置标题颜色
-setTitleBackGroundColor|	设置标题背景颜色
-setTitleMarginBottom|	设置标题底边距
-setPointerCheckedImage|	设置指示器选中显示的图片
-setPointerUnCheckedImage|	设置指示器未选中显示的图片
-setPointerMargin|	设置指示器底边距 与 指示器之间的间距
-setPointerSize|	设置指示器宽和高
-initData|	初始化,传入网络图片url的list，和标题list
-setOnBannerItemClickListening|	设置banner被点击监听，返回position
+multiMode|	图片选着模式，单选/多选
+selectLimit|	多选限制数量，默认为9
+showCamera|	选择照片时是否显示拍照按钮
+crop|	是否允许裁剪（单选有效）
+style|	有裁剪时，裁剪框是矩形还是圆形
+focusWidth|	矩形裁剪框宽度（圆形自动取宽高最小值）
+focusHeight|	矩形裁剪框高度（圆形自动取宽高最小值）
+outPutX|	裁剪后需要保存的图片宽度
+outPutY|	裁剪后需要保存的图片高度
+isSaveRectangle|	裁剪后的图片是按矩形区域保存还是裁剪框的形状，例如圆形裁剪的时候，该参数给true，那么保存的图片是矩形区域，如果该参数给fale，保存的图片是圆形区域
+imageLoader|	需要使用的图片加载器，自需要实现ImageLoader接口即可
 
 ## 3.代码参考
 配置及初始化
