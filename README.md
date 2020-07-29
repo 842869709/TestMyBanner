@@ -21,20 +21,20 @@ banner广告轮播控件
 ## 2.功能参数与含义
 配置参数|参数含义|参数类型|默认值
 -|-|-|-
-setDelayTime|	设置滚动间隔时间（毫秒
-setErrorImage|	设置加载错误默认展示的图片
-setTitleVisible|	设置标题显示与否
-setPointerVisible|	设置指示器显示与否
-setTitleSize|	设置标题字号
-setTitleColor|	设置标题颜色
-setTitleBackGroundColor|	设置标题背景颜色
-setTitleMarginBottom|	设置标题底边距
-setPointerCheckedImage|	设置指示器选中显示的图片
-setPointerUnCheckedImage|	设置指示器未选中显示的图片
-setPointerMargin|	设置指示器底边距 与 指示器之间的间距
-setPointerSize|	设置指示器宽和高
-initData|	初始化,传入网络图片url的list，和标题list
-setOnBannerItemClickListening|	设置banner被点击监听，返回position
+setDelayTime|	设置滚动间隔时间（毫秒）|	Long|	1500
+setErrorImage|	设置加载错误默认展示的图片|	int|	透明色
+setTitleVisible|	设置标题显示与否|	boolean|	true
+setPointerVisible|	设置指示器显示与否|	boolean|	true
+setTitleSize|	设置标题字号|	int|	20
+setTitleColor|	设置标题颜色|	String|	#333333
+setTitleBackGroundColor|	设置标题背景颜色|	String| 	#33666666
+setTitleMarginBottom|	设置标题底边距|	int|	0
+setPointerCheckedImage|	设置指示器选中显示的图片|	int|	#ffff8800
+setPointerUnCheckedImage|	设置指示器未选中显示的图片|	int|	#ff000000
+setPointerMargin|	设置指示器底边距 与 指示器之间的间距|	int,int|	 0,15
+setPointerSize|	设置指示器宽和高|	int|	15,15
+initData|	初始化,传入网络图片url的list，和标题list|	list，list|	无
+setOnBannerItemClickListening|	设置banner被点击监听，返回position|	无| 	无
 
 ## 3.代码参考
 配置及初始化
