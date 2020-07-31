@@ -38,7 +38,8 @@ setOnBannerItemClickListening|	设置banner被点击监听，返回position|	无
 
 ## 3.代码参考
 布局文件
-```<com.yangxuydong.kotlindemo.bannerdemo.MyBanner
+```
+<com.yangxuydong.kotlindemo.bannerdemo.MyBanner
         android:id="@+id/mb"
         android:layout_width="match_parent"
         android:layout_height="250dp"/>
