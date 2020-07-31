@@ -37,6 +37,13 @@ initData|	初始化,传入网络图片url的list，和标题list|	list，list|	�
 setOnBannerItemClickListening|	设置banner被点击监听，返回position|	无| 	无
 
 ## 3.代码参考
+布局文件
+```<com.yangxuydong.kotlindemo.bannerdemo.MyBanner
+        android:id="@+id/mb"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+```
+
 配置及初始化
 ```
 package com.yangxuydong.testmybanner
