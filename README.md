@@ -1,7 +1,7 @@
 # MyBanner
 banner广告轮播控件
 
-示例图片
+示例图片，图片如果不展示请出国即可
 
 ![](https://github.com/842869709/TestMyBanner/blob/master/test.png)
 
