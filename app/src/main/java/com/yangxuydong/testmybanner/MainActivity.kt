@@ -24,7 +24,8 @@ class MainActivity : Activity(), MyBanner.OnBannerItemClickListening {
         listImage.add(url2)
         listImage.add(url3)
 
-        mb.setDelayTime(1500)
+        mb.setDelayTime(2500)
+        mb.setScrollTime(300)
         mb.setErrorImage(R.mipmap.a)
 
         mb.setTitleVisible(true)
