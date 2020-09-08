@@ -100,5 +100,6 @@ class MainActivity : Activity(), MyBanner.OnBannerItemClickListening {
     }
 }
 ```
+## v1.0.2修改最小版本号为19
 ## v1.0.1增加了设置滚动动画时间的方法与手指按下滚动暂停
 ## v1.0.0初始化提交
