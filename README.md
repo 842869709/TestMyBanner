@@ -22,6 +22,7 @@ banner广告轮播控件
 配置参数|参数含义|参数类型|默认值
 -|-|-|-
 setDelayTime|	设置滚动间隔时间（毫秒）|	Long|	1500
+setDelayTime|	设置滚动时间（毫秒）|	int|	300
 setErrorImage|	设置加载错误默认展示的图片|	int|	透明色
 setTitleVisible|	设置标题显示与否|	boolean|	true
 setPointerVisible|	设置指示器显示与否|	boolean|	true
@@ -99,4 +100,5 @@ class MainActivity : Activity(), MyBanner.OnBannerItemClickListening {
     }
 }
 ```
+## v1.0.1增加了设置滚动动画时间的方法与手指按下滚动暂停
 ## v1.0.0初始化提交
